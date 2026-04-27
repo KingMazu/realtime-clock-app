@@ -9,11 +9,14 @@ function updateClock(){
   let sec = new Date().getSeconds();
   let ampm = "AM";
 
-
   if(h > 12){
     h = h - 12;
     ampm = "PM"
   }
+
+  h = h < 10 ? "0" + h : h;
+  min = min < 10 ? "0" + min : min ;
+  sec = sec < 10 ? "0" + sec : sec;
 
   hourElement.innerText = h;
   minElement.inneText = min;
