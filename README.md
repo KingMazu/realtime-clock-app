@@ -17,4 +17,4 @@ A simple web application that displays the current time in real-time.
 2. Open index.html in your browser
 
 ## Author
-Your Name
+Issiaka Mazu
